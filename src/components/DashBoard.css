@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding:10px ;
+    font-size: larger;
+    border:2px solid black;
+    margin:auto;
+    gap:2px;
+    max-width: 80%;
+    background-color: rgb(248, 246, 243);
+}
+.inner-container{
+    display: flex;
+    justify-content: space-around;
+    padding:3px ;
+    border:2px solid black;
+    border-radius: 5px;
+    margin:2px auto;
+    gap:2px;
+    max-width: 70%;
+    background-color: blanchedalmond;
+}
+
+.child-container{
+    border:2px solid black;
+    border-radius: 5px;
+    padding:10px;
+    margin:5px;
+    background-color: rgb(219, 217, 197);
+}
